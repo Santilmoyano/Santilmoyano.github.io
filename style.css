@@ -1,0 +1,123 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+}
+
+.pagina-header{
+  background-color: white;
+  padding:20px;
+}
+
+.pagina-header nav{
+  display: inline-block;
+  color: blue;
+
+}
+
+.navegacion ul{
+  position: relative;
+  bottom:20px;
+  left: 500px;
+
+
+}
+
+
+.navegacion li{
+  display: inline-block;
+  border: 1px solid blue;
+  margin: 0;
+  padding: 15px;
+  cursor: pointer;
+
+
+}
+
+.container img{
+  width: 50%;
+
+}
+.titulo{
+  text-align: center;
+  background-color: blue;
+  margin-bottom: 15px;
+  color: white;
+}
+
+.tarjeta{
+  display: inline-block;
+  width:30%;
+  border: 1px solid black;
+  padding: 30px;
+  }
+.tarjeta img{
+  width:100%;
+}
+.tarjeta h3{
+color: white ;
+  text-align: center;
+}
+
+.tarjeta header{
+  background-color: blue;
+}
+
+.tarjeta main{
+  padding: 20px;
+  color: grey;
+}
+
+.tarjeta button{
+  background-color: blue;
+  color: white;
+  padding: 20px;
+  border-radius: 5px;
+  border: none;
+
+}
+.tarjeta button:hover{
+  background-color: blueviolet;
+
+
+}
+.tarjeta footer{
+  text-align: center;
+}
+
+.footer{
+  background-color: white;
+  color: blue;
+  padding: 20px;
+}
+
+.footer-social{
+  display: inline-block;
+  width: 30%;
+
+
+}
+.footer-info{
+  display: inline-block;
+
+}
+
+.footer-social li{
+  display: inline-block;
+}
+.tarjetasclases{
+  display: flex;
+
+}
+.tarjeta{
+  flex: 1;
+}
+.navegacion button{
+  border: none;
+}
+.redes{
+ 
+  
+  
+}
